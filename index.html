@@ -7,6 +7,25 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link
       rel="stylesheet"
+      type="text/css"
+      media="(max-width: 768px)"
+      href="./css/small.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 768px)"
+      href="./css/medium.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 1200px)"
+      href="./css/large.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
       integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE="
       crossorigin="anonymous"
@@ -23,139 +42,23 @@
   </head>
   <body>
     <div class="main">
-      <nav>
-        <div class="container_content nav_hero full-height">
-          <img
-            class="nav-logo"
-            src="./images/logo.svg"
-            width="200px"
-            alt="Logo"
-          />
-          <h1>A history of everything you copy</h1>
-          <p>
-            Clipboard allows you to track and organize everything you copy.
-            Instantly access your clipboard on all your devices.
-          </p>
-          <div class="dual-cta">
-            <button class="btn cyan">Download for ios</button>
-            <button class="btn lightBlue">Download for Mac</button>
-          </div>
-        </div>
+      <nav class="nav">
+        <img
+          class="nav-logo"
+          src="./images/logo-bookmark.svg"
+          width="200px"
+          alt="Logo"
+        />
+        <button id="toggle" class="nav--toggle">
+          <img src="./images/icon-hamburger.svg" width="25" />
+        </button>
       </nav>
-      <div class="container_content full-height">
-        <h2>Keep track of your snippets.</h2>
-        <p>
-          Clipboard instantly stores any item you copy in the cloud, meaning you
-          can access your snippets immediately on all your devices. Our Mac and
-          iOS apps will help you organize everything.
-        </p>
-      </div>
-      <div class="container_content--2-col full-height">
-        <div class="col-6">
-          <img
-            class="computer-img"
-            src="./images/image-computer.png"
-            width="100%"
-            alt="Logo"
-          />
+      <section class="hero">
+        <img src="./images/illustration-hero.svg" />
+        <div class="circle--container">
+          <div class="circle"></div>
         </div>
-        <div class="col-2 features">
-          <div class="feature--left">
-            <h3>Quick Search</h3>
-            <p>
-              Easy search your snippets by content, category, web address,
-              application, and more.
-            </p>
-          </div>
-          <div class="feature--left">
-            <h3>iCloud Sync</h3>
-            <p>instantly saves and syncs snippets across all your devices.</p>
-          </div>
-          <div class="feature--left">
-            <h3>Complete History</h3>
-            <p>
-              Retrieve any snippets from the first moment you started using the
-              app.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container_content full-height">
-        <h2>Access Clipboard anywhere.</h2>
-        <p>
-          Whether you're on the go or at your computer, you can access all your
-          clipboard snippets in a few clicks.
-        </p>
-        <img class="devices-img" src="./images/image-devices.png" alt="Logo" />
-      </div>
-      <div class="container_content mt-100 full-height">
-        <h2>Supercharge your workflow.</h2>
-        <p>
-          Whether you're on the go or at your computer, you can access all your
-          clipboard snippets in a few clicks.
-        </p>
-      </div>
-      <div class="container_content--3-col mt-50 full-height">
-        <div class="col-3 text-center p-3">
-          <i class="fas fa-scroll fa-2x"></i>
-          <h3>Create Blacklists</h3>
-          <p>
-            Whether you're on the go or at your computer, you can access all
-            your clipboard snippets in a few clicks.
-          </p>
-        </div>
-        <div class="col-3 text-center p-3">
-          <i class="fas fa-i-cursor fa-2x"></i>
-          <h3>Plain text Snippets</h3>
-          <p>
-            Whether you're on the go or at your computer, you can access all
-            your clipboard snippets in a few clicks.
-          </p>
-        </div>
-        <div class="col-3 text-center p-3">
-          <i class="fas fa-eye fa-2x"></i>
-          <h3>Sneak preview</h3>
-          <p class="text-center">
-            Whether you're on the go or at your computer, you can access all
-            your clipboard snippets in a few clicks.
-          </p>
-        </div>
-      </div>
-      <div class="container_content p-3 full-height">
-        <h2>Clipboard for iOS and Mac OS.</h2>
-        <p>
-          Available for free on the App Store. Download for mac or iOS, sync
-          with iCloud and you're ready to start adding to your clipboard.
-        </p>
-        <div class="dual-cta mb-100">
-          <button class="btn cyan">Download for ios</button>
-          <button class="btn lightBlue">Download for Mac</button>
-        </div>
-      </div>
-      <footer>
-        <div class="footer">
-          <div class="logo">
-            <img src="./images/logo.svg" width="100px" alt="Logo" />
-          </div>
-          <div class="col-2">
-            <ul>
-              <li><a href="/">FAQs</a></li>
-              <li><a href="/">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-2">
-            <ul>
-              <li><a href="/">Privacy Policy</a></li>
-              <li><a href="/">Press Kit</a></li>
-            </ul>
-          </div>
-          <div class="col-2">
-            <ul>
-              <li><a href="/">Install Guide</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      </section>
     </div>
   </body>
   <script src="./build/js/app.js"></script>

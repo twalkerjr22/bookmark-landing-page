@@ -1,14 +1,14 @@
-# Frontend Mentor - Clipboard landing page
+# Frontend Mentor - Bookmark landing page
 
-![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+[Frontend Mentor](https://beta.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**To do this challenge, you need a basic understanding of HTML and CSS**
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
@@ -16,20 +16,28 @@ Your challenge is to build out this landing page and get it looking as close to 
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- Receive an error message when the newsletter form is submitted if:
+  - The input field is empty
+  - The email address is not formatted correctly
 
-Want some support on the challenge? Join our Slack community and ask questions in the **#help** channel.
+For this challenge you'll need to:
+
+- Create the rounded blue background shape with code
+- Change the `fill` and `stroke` color of the SVGs at specific points (the challenge can be completed using the single `logo-bookmark.svg` file provided)
+
+Want some support on the challenge? [Join our Slack community](https://beta.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find a mobile design, a desktop design, and also a design for the hover states to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
-If you would like the Sketch file in order to inspect the design in more detail it is available to [purchase here](https://bmc.xyz/l/PgOjm2e6p).
+If you would like the Sketch file in order to inspect the design in more detail it is available to [purchase here](INSERT).
 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
@@ -59,7 +67,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 There are multiple places you can share your solution:
 
 1. Submit it on the platform so that other users will see your solution on the site. Other users will be able to give you feedback, which could help improve your code for the next project.
-2. Share your repository and live URL in the **#finished-projects** channel of the Slack community.
+2. Share your repository and live URL in the **#finished-projects** channel of the [Slack community](https://beta.frontendmentor.io/slack).
 3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 
 ## Giving feedback

@@ -7,6 +7,25 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link
       rel="stylesheet"
+      type="text/css"
+      media="(max-width: 768px)"
+      href="./css/small.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 768px)"
+      href="./css/medium.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 1200px)"
+      href="./css/large.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
       integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE="
       crossorigin="anonymous"
@@ -23,8 +42,23 @@
   </head>
   <body>
     <div class="main">
-      
-      <footer>This is the Footer</footer>
+      <nav class="nav">
+        <img
+          class="nav-logo"
+          src="./images/logo-bookmark.svg"
+          width="200px"
+          alt="Logo"
+        />
+        <button id="toggle" class="nav--toggle">
+          <img src="./images/icon-hamburger.svg" width="25" />
+        </button>
+      </nav>
+      <section class="hero">
+        <img src="./images/illustration-hero.svg" />
+        <div class="circle--container">
+          <div class="circle"></div>
+        </div>
+      </section>
     </div>
   </body>
   <script src="./build/js/app.js"></script>

@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    height: 500px;
     img {
         width: 100%;
     }
@@ -23,7 +24,7 @@
         //shape-outside: circle(50% at 50%);
         clip-path: circle(50% at 0 50%);
         transform: scaleX(-1);
-        background: hsl(229, 31%, 21%);
+        background: hsl(231, 69%, 60%);
 
     }
 }

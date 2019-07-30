@@ -1,0 +1,19 @@
+.feature-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  width: 100%; }
+  .feature-list li {
+    min-height: 60px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid #a2a2a2;
+    display: block;
+    margin: 10px;
+    width: 90%; }
+  .feature-list a {
+    text-decoration: none;
+    color: black; }

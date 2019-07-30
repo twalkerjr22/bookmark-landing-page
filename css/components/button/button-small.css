@@ -1,0 +1,13 @@
+.btn {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #5368df;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 8px 6px -6px black; }
+
+.btn--gray {
+  background-color: #fafafa;
+  color: black; }

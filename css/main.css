@@ -5,10 +5,15 @@ button {
 
 html, body {
   font-family: 'Rubik', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  overflow-x: hidden;
+  margin: auto 0; }
 
 p {
   color: #9194a1; }
 
 .mt-5 {
   margin-top: 100px; }
+
+.mt-3 {
+  margin-top: 70px; }

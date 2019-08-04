@@ -8,6 +8,8 @@ button {
 html, body {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    overflow-x: hidden;
+    margin: auto 0;
 }
 p{
     color:hsl(229, 8%, 60%);
@@ -19,5 +21,9 @@ a{
 
 .mt-5 {
     margin-top: 100px;
+}
+
+.mt-3 {
+    margin-top: 70px;
 }
 

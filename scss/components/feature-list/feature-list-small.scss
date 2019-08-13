@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .feature-list {
 
     text-decoration: none;
@@ -11,7 +13,7 @@
         min-height: 60px;
         text-decoration: none;
         color: black;
-        border-bottom: 3px solid rgb(196, 196, 196);
+        border-bottom: 3px solid hsl(225, 5%, 85%);
        
         display:block;
        margin:10px;
@@ -20,6 +22,13 @@
     a{
         text-decoration: none;
         color: black;
+        
+    }
+
+    a:hover {
+        padding-bottom: 35px;
+        border-bottom: 5px solid $soft-red;
+       
     }
     
 }

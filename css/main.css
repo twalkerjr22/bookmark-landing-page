@@ -10,10 +10,35 @@ html, body {
   margin: auto 0; }
 
 p {
-  color: #9194a1; }
+  font-size: 1rem;
+  color: #9194a1;
+  line-height: 30px; }
+
+.center {
+  margin: 0 auto; }
 
 .mt-5 {
   margin-top: 100px; }
 
+.mb-3 {
+  margin-bottom: 50px; }
+
+.mb-1 {
+  margin-bottom: 15px; }
+
 .mt-3 {
   margin-top: 70px; }
+
+.mt-1 {
+  margin-top: 20px; }
+
+.align-right {
+  float: right;
+  text-align: right;
+  margin-left: auto; }
+
+.align-left {
+  margin-right: auto; }
+
+.pr-3 {
+  padding-right: 30px; }

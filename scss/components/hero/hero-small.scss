@@ -1,7 +1,7 @@
 .hero {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100vw;
@@ -10,23 +10,19 @@
         width: 100%;
     }
 
+
     .circle--container{
-        position: absolute;
-        top: 180px;
+       position: absolute;
+       top: 30%;
+       right: -160px;
+       border-radius: 100px;
+       // right: 100px;
         z-index: -1;
-        display: flex;
-        align-items: flex-end;
-        flex-direction: column;
-        height: 70%;
         width: 100%;
-        .circle {
-            width: 60%;
-            height: 500px;
-            clip-path: circle(100% at 0% 0%);
-            background: white;
-            transform: scaleX(-1);
-            background: hsl(231, 69%, 60%);
-        }
+        height: 70%;
+        min-height: 70%;
+        background: hsl(231, 69%, 60%);
+       
     }
 
    

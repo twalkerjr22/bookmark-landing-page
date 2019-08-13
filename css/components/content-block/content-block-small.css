@@ -10,3 +10,6 @@
   .content-block .content-block--dual-cta {
     display: flex;
     flex-direction: row; }
+  .content-block p {
+    padding-left: 20px;
+    padding-right: 20px; }

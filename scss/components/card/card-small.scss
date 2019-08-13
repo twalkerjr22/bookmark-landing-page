@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+ 
+  padding: 20px;
+  box-shadow: 0px 7px 5px 1px rgba(214,214,214,1);
+  
+  img{
+    margin: 30px;
+  }
+  .dots {
+    width: 90%;
+    border-bottom: 10px dotted rgba(214,214,214,1);
+    margin: 20px 0px;
+  }
+}

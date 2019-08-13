@@ -1,16 +1,17 @@
-.hero {
+.img-content-block {
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100vw; }
-  .hero img {
-    width: 100%; }
-  .hero .circle--container {
+  width: 100vw;
+  height: 400px; }
+  .img-content-block img {
+    width: 80%; }
+  .img-content-block .circle--container {
     position: absolute;
     top: 30%;
-    right: -160px;
+    left: -160px;
     border-radius: 100px;
     z-index: -1;
     width: 100%;

@@ -1,0 +1,124 @@
+.hero {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse; }
+  .hero img {
+    width: 100%; }
+  .hero .circle--container {
+    position: absolute;
+    top: 55%;
+    right: -160px;
+    border-radius: 100px;
+    z-index: -1;
+    width: 60%;
+    height: 40%;
+    min-height: 40%;
+    background: #5368df; }
+
+.nav {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 0 20px; }
+  .nav--toggle {
+    margin-left: auto; }
+
+.btn {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #5368df;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 8px 6px -6px #8f8f8f; }
+
+.btn-lg {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color: #5368df;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 8px 6px -6px #8f8f8f; }
+
+.btn-xlg {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 30px;
+  width: 100%;
+  text-decoration: none;
+  background-color: #5368df;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 8px 6px -6px #8f8f8f; }
+
+.btn--soft-red {
+  background-color: #fa5757; }
+
+.btn--gray {
+  background-color: #fafafa;
+  color: black; }
+
+.content-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .content-block .content-block--heading {
+    font-size: 30px; }
+  .content-block .content-block--dual-cta {
+    display: flex;
+    flex-direction: row; }
+  .content-block p {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+.feature-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-items: center;
+  width: 70%; }
+  .feature-list li {
+    min-height: 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid #d7d8db;
+    display: inline-block;
+    width: 100%; }
+  .feature-list a {
+    min-height: 100%;
+    text-decoration: none;
+    color: black;
+    display: block; }
+  .feature-list li:hover {
+    border-bottom: 5px solid #fa5757; }
+
+.img-content-block {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 400px; }
+  .img-content-block img {
+    width: 80%; }
+  .img-content-block .circle--container {
+    position: absolute;
+    top: 30%;
+    left: -160px;
+    border-radius: 100px;
+    z-index: -1;
+    width: 100%;
+    height: 70%;
+    min-height: 70%;
+    background: #5368df; }

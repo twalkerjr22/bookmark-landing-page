@@ -8,19 +8,19 @@
     <link
       rel="stylesheet"
       type="text/css"
-      media="(max-width: 768px)"
+      media="screen and (max-width: 768px)"
       href="./css/small.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      media="screen and (max-width: 768px)"
+      media="screen and (min-width: 768px) and (max-width: 1200px)"
       href="./css/medium.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      media="screen and (max-width: 1440px)"
+      media="screen and (min-width: 1200px)"
       href="./css/large.css"
     />
     <link
@@ -46,10 +46,11 @@
         </button>
       </nav>
       <section class="hero">
-        <img src="./images/illustration-hero.svg" />
-        <div class="circle--container"></div>
-      </section>
-      <div class="content-block mt-5">
+        <div class="content-block mt-5 col-6">
+          <img src="./images/illustration-hero.svg" />
+          <div class="circle--container"></div>
+        </div>
+      <div class="content-block mt-5 col-6">
         <h2 class="content-block--heading">Simple Manager</h2>
         <p>A Clean and simple interface to organize
           your favorite websirtes. Open a new browser
@@ -61,6 +62,7 @@
           <a class="btn btn--gray" href="">Get it on Firefox</a>
         </div>
       </div>
+    </section>
       <div class="content-block mt-5">
         <h2 class="content-block--heading">Features</h2>
         <p>Our aim is to make it quick and easy 

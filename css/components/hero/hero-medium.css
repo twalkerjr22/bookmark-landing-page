@@ -1,0 +1,17 @@
+.hero {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse; }
+  .hero img {
+    width: 100%; }
+  .hero .circle--container {
+    position: absolute;
+    top: 55%;
+    right: -160px;
+    border-radius: 100px;
+    z-index: -1;
+    width: 60%;
+    height: 40%;
+    min-height: 40%;
+    background: #5368df; }

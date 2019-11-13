@@ -1,0 +1,17 @@
+.extensions p {
+  width: 70%; }
+
+.extensions--cards {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 90%; }
+
+.extensions--one {
+  align-self: flex-start; }
+
+.extensions--two {
+  align-self: center; }
+
+.extensions--three {
+  align-self: flex-end; }

@@ -1,0 +1,26 @@
+.img-content-block {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 400px; }
+  .img-content-block .circle--container {
+    position: absolute;
+    top: 40%;
+    left: -480px;
+    border-radius: 100px;
+    z-index: -1;
+    min-width: 900px;
+    height: 60%;
+    min-height: 60%;
+    background: #5368df; }
+  .img-content-block .content-block p {
+    padding: 0px; }
+  .img-content-block--img {
+    min-width: 50%;
+    text-align: right; }
+    .img-content-block--img img {
+      width: 50%; }
+  .img-content-block p {
+    text-align: left; }

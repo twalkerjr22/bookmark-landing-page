@@ -1,0 +1,12 @@
+.nav { 
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding:0 20px;
+
+    &--toggle {
+        margin-left: auto;
+    }
+}

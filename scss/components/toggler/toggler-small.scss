@@ -1,0 +1,28 @@
+.toggler {
+
+    &-block{
+        padding: 20px 10px 20px 10px;
+        text-align: left;
+        width: 90%;
+        h3 {
+            display: inline;
+            padding: 10px;
+        }
+        &:hover {
+            color:hsl(231, 69%, 60%);
+            cursor: pointer;
+        }
+    }
+    &--closed {
+        height: 0px;
+        overflow: hidden;
+        transition: height .5s;
+    }
+
+    &--open {
+        height: 200px;
+        overflow: hidden;
+        transition: height .5s;
+    }
+
+}

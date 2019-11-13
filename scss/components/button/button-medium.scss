@@ -1,0 +1,44 @@
+.btn {
+
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: hsl(231, 69%, 60%);
+    color:white;
+    border-radius: 5px;
+    margin:5px;
+    box-shadow: 0 8px 6px -6px rgb(143, 143, 143);
+}
+
+.btn-lg {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: hsl(231, 69%, 60%);
+    color:white;
+    border-radius: 5px;
+    
+    box-shadow: 0 8px 6px -6px rgb(143, 143, 143);
+}
+
+.btn-xlg{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 30px;
+    width: 100%;
+    text-decoration: none;
+    background-color: hsl(231, 69%, 60%);
+    color:white;
+    border-radius: 5px;
+    
+    box-shadow: 0 8px 6px -6px rgb(143, 143, 143);
+}
+
+.btn--soft-red {
+    background-color: hsl(0, 94%, 66%);;
+}
+.btn--gray{
+    background-color: hsl(0, 0%, 98%);
+    color:black;
+}

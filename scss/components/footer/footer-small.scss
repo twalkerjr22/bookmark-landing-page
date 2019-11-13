@@ -1,0 +1,31 @@
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(231, 46%, 31%);
+    svg {
+        fill: white;
+        color: white;
+        
+    }
+   
+    ul {
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+       
+    }
+    ul li{
+        padding: 10px;
+        font-size: 1.3rem;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color:  white;
+    }
+}

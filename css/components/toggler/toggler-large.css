@@ -1,0 +1,25 @@
+.toggler-block:first-child {
+  border-top: 2px solid #d6d6d6; }
+
+.toggler-block {
+  padding: 20px 10px 20px 10px;
+  text-align: left;
+  width: 60%;
+  margin: 0px auto;
+  border-bottom: 2px solid #d6d6d6; }
+  .toggler-block h3 {
+    display: inline;
+    padding: 10px; }
+  .toggler-block:hover {
+    color: #5368df;
+    cursor: pointer; }
+
+.toggler--closed {
+  height: 0px;
+  overflow: hidden;
+  transition: height .5s; }
+
+.toggler--open {
+  height: 200px;
+  overflow: hidden;
+  transition: height .5s; }

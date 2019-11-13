@@ -1,0 +1,22 @@
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    .content-block--heading {
+        font-size: 30px;
+    }
+
+    .content-block--dual-cta {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p{
+        width: 70%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

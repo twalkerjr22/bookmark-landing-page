@@ -1,0 +1,22 @@
+.feature-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-items: center;
+  width: 70%; }
+  .feature-list li {
+    min-height: 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid #d7d8db;
+    display: inline-block;
+    width: 100%; }
+  .feature-list a {
+    min-height: 100%;
+    text-decoration: none;
+    color: black;
+    display: block; }
+  .feature-list li:hover {
+    border-bottom: 5px solid #fa5757; }

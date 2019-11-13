@@ -20,6 +20,7 @@ p{
 
 .main{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 a{
@@ -85,12 +86,6 @@ a{
 
 .col-6{
     width: 50%;
+
+
 }
-
-@media only screen and (max-width: 900px) {
-    .main {
-      padding:0;
-
-    }
-  }
-

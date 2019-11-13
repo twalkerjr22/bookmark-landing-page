@@ -15,7 +15,8 @@ p {
   line-height: 30px; }
 
 .main {
-  padding: 10px 100px; }
+  max-width: 1200px;
+  margin: 0 auto; }
 
 .center {
   margin: 0 auto; }
@@ -63,7 +64,3 @@ p {
 
 .col-6 {
   width: 50%; }
-
-@media only screen and (max-width: 900px) {
-  .main {
-    padding: 0; } }

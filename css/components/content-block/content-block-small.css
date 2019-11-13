@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding: 0 10px; }
   .content-block .content-block--heading {
     font-size: 30px; }
   .content-block .content-block--dual-cta {

@@ -15,12 +15,21 @@
     height: 60%;
     min-height: 60%;
     background: #5368df; }
-  .img-content-block .content-block p {
-    padding: 0px; }
+  .img-content-block .content-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .img-content-block .content-block--block {
+      text-align: left;
+      width: 80%;
+      margin-left: auto; }
+      .img-content-block .content-block--block p {
+        width: 90%;
+        padding: 0; }
   .img-content-block--img {
     min-width: 50%;
     text-align: right; }
     .img-content-block--img img {
-      width: 50%; }
+      width: 70%; }
   .img-content-block p {
     text-align: left; }

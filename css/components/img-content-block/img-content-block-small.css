@@ -5,9 +5,11 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  flex: 0 0 100% img;
-    flex-width: 100vw;
-    flex-min-width: 100vw; }
+  flex: 0 0 100%;
+  margin-top: 50px; }
+  .img-content-block img {
+    width: 100vw;
+    min-width: 100vw; }
   .img-content-block .circle--container {
     position: absolute;
     top: 0%;

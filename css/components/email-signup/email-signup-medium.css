@@ -1,0 +1,28 @@
+.email-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: #5368df;
+  color: white; }
+  .email-signup p {
+    color: white;
+    padding: 0px;
+    margin: 0px; }
+  .email-signup form {
+    width: 100%; }
+  .email-signup h1 {
+    padding: 0px;
+    width: 70%;
+    margin: 5px; }
+  .email-signup input {
+    width: 30%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    color: #9194a1;
+    border-width: 1px;
+    padding: 10px; }
+  .email-signup .btn-xlg {
+    box-shadow: none; }

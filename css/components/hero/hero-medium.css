@@ -5,6 +5,8 @@
   flex-direction: row-reverse; }
   .hero img {
     width: 100%; }
+  .hero .hero-content {
+    width: 100%; }
   .hero .circle--container {
     position: absolute;
     top: 55%;

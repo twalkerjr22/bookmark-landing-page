@@ -1,1 +1,38 @@
-.email-signup {}
+.email-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    
+    p{
+        color:white;
+        padding: 0px;
+        margin: 0px;
+    }
+    form {
+        width: 100%;
+    }
+    
+    h1{
+        padding: 0px;
+        width:70%;
+        margin: 5px;
+    }
+
+    input {
+        width: 30%;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 18px;
+        color: hsl(229, 8%, 60%);
+        border-width: 1px;
+        padding: 10px;
+    }
+  
+    .btn-xlg {
+        box-shadow: none;
+    }
+}

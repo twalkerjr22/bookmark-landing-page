@@ -33,7 +33,8 @@
     <title>Bookmark landing page</title>
   </head>
   <body>
-    <div class="main">
+    <div>
+      <div class="main">
       <nav class="nav">
         <img
           class="nav-logo"
@@ -46,26 +47,27 @@
         </button>
       </nav>
       <section class="hero">
-        <div class="content-block mt-5 col-6">
+        <div class="content-block mt-5">
           <img src="./images/illustration-hero.svg" />
           <div class="circle--container"></div>
         </div>
-      <div class="content-block mt-5 col-6">
-        <h2 class="content-block--heading">Simple Manager</h2>
-        <p>A Clean and simple interface to organize
-          your favorite websirtes. Open a new browser
-          tab and see your sites load instantly. Try it 
-          for free.
-        </p>
-        <div class="content-block--dual-cta mt-3">
-          <a class="btn" href="">Get it on chrome</a>
-          <a class="btn btn--gray" href="">Get it on Firefox</a>
+      <div class="hero-content mt-5 pl-3">
+          <h2>Simple Manager</h2>
+          <p>A Clean and simple interface to organize
+            your favorite websirtes. Open a new browser
+            tab and see your sites load instantly. Try it 
+            for free.
+          </p>
+
+          <div class="content-block--dual-cta mt-3">
+            <a class="btn" href="">Get it on chrome</a>
+            <a class="btn btn--gray" href="">Get it on Firefox</a>
+          </div>
         </div>
-      </div>
     </section>
       <div class="content-block mt-5">
         <h2 class="content-block--heading">Features</h2>
-        <p>Our aim is to make it quick and easy 
+        <p class="w-50 mb-3">Our aim is to make it quick and easy 
           for you to access your favourite websites. 
           Your bookmarks sync between your devices so you can
           access them on the go.
@@ -83,37 +85,41 @@
         </ul>
       </div>
       <div class="img-content-block">
-         <img src="./images/illustration-features-tab-1.svg" />
-        <div class="circle--container"></div>
+        <div class="img-content-block--img">
+          <img src="./images/illustration-features-tab-1.svg" />
+          <div class="circle--container"></div>
+        </div>
+        <div class="col-6 content-block">
+          <div class="content-block--block">
+            <h2>Bookmarks in one click</h2>
+            <p>Organize your bookmarks however you like. 
+              Our simple drag-and-drop interface gives you complete
+              control over how you manage your favorite sites.
+            </p>
+          </div>
+          </div>
       </div>
-      <div class="content-block mt-5">
-        <h2 class="content-block--heading">Bookmarks in one click</h2>
-        <p>A Clean and simple interface to organize
-          your favorite websirtes. Open a new browser
-          tab and see your sites load instantly. Try it 
-          for free.
-        </p>
-      </div>
+      
       <div class="content-block mt-3">
         <h2 class="content-block--heading">Download the extensions</h2>
-        <p>We've got more browser in the pipeline please do let us
+        <p class="w-50">We've got more browser in the pipeline please do let us
           know if you've got a favorite you'd like us to prioritize.
         </p>
       </div>
       <section class="extensions center mt-1">
-        <div class="card center mb-3">
+        <div class="card center mb-3 extensions--one">
           <img src="images/logo-chrome.svg"/>
           <h3 class="content-block--heading">Add To Chrome</h3>
           <div class="dots"></div>
           <button class="btn-lg">Add & Install Extension</button>
         </div>
-        <div class="card center mb-3">
+        <div class="card center mb-3 extensions--two">
           <img src="images/logo-firefox.svg"/>
           <h3 class="content-block--heading">Add To Firefox</h3>
           <div class="dots"></div>
           <button class="btn-lg">Add & Install Extension</button>
         </div>
-        <div class="card center mb-3">
+        <div class="card center mb-3 extensions--three">
           <img src="images/logo-opera.svg"/>
           <h3 class="content-block--heading">Add To Opera</h3>
           <div class="dots"></div>
@@ -191,12 +197,13 @@
     
         </div>
       </section>
+      </div>
       <section class="content-block email-signup mt-5">
           <p>35,000+ ALREADY JOINED</p>
           <h1>Stay up-to-date with what we're doing</h1>
           <form class="mt-1">
             <input class="mb-1" type="email" placeholder="Enter your email address"></input>
-            <button class="btn-xlg btn--soft-red">CONTACT US</button>
+            <button class="btn btn--soft-red">CONTACT US</button>
           </form>
       </section>
     </div>

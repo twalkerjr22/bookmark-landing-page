@@ -18,6 +18,10 @@ p{
     line-height: 30px;
 }
 
+.main{
+    padding: 10px 100px;
+}
+
 a{
 
 }
@@ -45,11 +49,30 @@ a{
 .mt-1 {
     margin-top: 20px;
 }
+.w-50{
+    width: 50%;
+}
+
+.w-70{
+    width: 70%;
+}
 
 .align-right{
     float: right;
     text-align: right;
     margin-left: auto;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.pl-3 {
+    padding-left: 30px;
+}
+
+.align-center {
+    text-align: center;
 }
 
 .align-left {
@@ -64,4 +87,10 @@ a{
     width: 50%;
 }
 
+@media only screen and (max-width: 900px) {
+    .main {
+      padding:0;
+
+    }
+  }
 

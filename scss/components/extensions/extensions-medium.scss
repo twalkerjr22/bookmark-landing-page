@@ -1,0 +1,22 @@
+.extensions {
+    p{
+        width: 70%;
+    }
+    &--cards{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        width: 90%;
+    }
+    &--one {
+        align-self: flex-start;
+
+    }
+    &--two {
+        align-self: center;
+    }
+
+    &--three {
+        align-self: flex-end;
+    }
+}

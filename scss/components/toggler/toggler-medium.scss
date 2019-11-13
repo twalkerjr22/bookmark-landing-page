@@ -1,1 +1,34 @@
-.toggler {}
+.toggler {
+
+    &-block:first-child {
+        border-top: 2px solid rgba(214,214,214,1);
+    }
+
+    &-block{
+        padding: 20px 10px 20px 10px;
+        text-align: left;
+        width: 60%;
+        margin: 0px auto;
+        border-bottom: 2px solid rgba(214,214,214,1);
+        h3 {
+            display: inline;
+            padding: 10px;
+        }
+        &:hover {
+            color:hsl(231, 69%, 60%);
+            cursor: pointer;
+        }
+    }
+    &--closed {
+        height: 0px;
+        overflow: hidden;
+        transition: height .5s;
+    }
+
+    &--open {
+        height: 200px;
+        overflow: hidden;
+        transition: height .5s;
+    }
+
+}

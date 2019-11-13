@@ -1,1 +1,35 @@
-.feature-list {}
+@import "../../variables.scss";
+
+.feature-list {
+
+    text-decoration: none;
+    list-style: none;;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 70%;
+    li {
+        min-height: 40px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 5px solid hsl(225, 5%, 85%);
+        margin-bottom: 40px;
+        width:100%;
+    }
+    a{
+        min-height: 100%;
+        text-decoration: none;
+        color: black;
+        display: block;
+        
+    }
+
+    li:hover {
+    
+        border-bottom: 5px solid $soft-red;
+       
+    }
+    
+}

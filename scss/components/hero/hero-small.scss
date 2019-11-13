@@ -7,9 +7,13 @@
     width: 100vw;
    
     img {
-        width: 100%;
+        width: 80%;
     }
 
+    .hero-content {
+        text-align: center;
+        width: 100%;
+    }
 
     .circle--container{
        position: absolute;
@@ -19,7 +23,7 @@
        // right: 100px;
         z-index: -1;
         width: 100%;
-        min-height: 25%;
+        height: 30%;
         background: hsl(231, 69%, 60%);
        
     }

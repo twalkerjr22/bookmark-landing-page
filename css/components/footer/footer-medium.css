@@ -1,0 +1,24 @@
+.footer {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  flex-direction: row;
+  background-color: #2b3673; }
+  .footer svg {
+    fill: white;
+    color: white; }
+  .footer ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center; }
+  .footer ul li {
+    padding: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline; }
+  .footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white; }

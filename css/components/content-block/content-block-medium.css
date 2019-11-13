@@ -10,5 +10,6 @@
     display: flex;
     flex-direction: row; }
   .content-block p {
+    width: 70%;
     padding-left: 20px;
     padding-right: 20px; }
